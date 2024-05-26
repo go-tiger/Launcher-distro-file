@@ -1,569 +1,677 @@
 {
-    "version": "1.0.0",
-    "rss": "https://github.com/go-tiger/Dotorisup/tags.atom",
-    "discord": {
-        "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-    },
-    "servers": [
+  "version": "1.0.0",
+  "rss": "https://github.com/go-tiger/Dotorisup/tags.atom",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Dotorisup-1.20.1",
+      "name": "Dotorisup (Minecraft 1.20.1)",
+      "description": "Dotorisup Running Minecraft 1.20.1 (Forge v47.2.20)",
+      "icon": "https://github.com/go-tiger/Launcher-distro-file/raw/main/Dotorisup/server-icon.png",
+      "version": "1.0.0",
+      "address": "ddanbi.ggm.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
         {
-            "id": "Dotorisup-1.20.1",
-            "name": "Dotorisup (Minecraft 1.20.1)",
-            "description": "Dotorisup Running Minecraft 1.20.1 (Forge v47.2.20)",
-            "icon": "https://github.com/go-tiger/Launcher-distro-file/raw/main/Dotorisup/server-icon.png",
-            "version": "1.0.0",
-            "address": "ddanbi.ggm.kr",
-            "minecraftVersion": "1.20.1",
-            "discord": {
-                "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-                "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-                "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7400,
+            "MD5": "9445bd28cb8bbf3405bcacc54627a6da",
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.2.20",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "2b7daf23d11fff0d0e2b7ae54712dbdf",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/versions/1.20.1-forge-47.2.20/1.20.1-forge-47.2.20.json"
+              }
             },
-            "mainServer": true,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
-                    "name": "Minecraft Forge (lowcodelanguage)",
-                    "type": "ForgeHosted",
-                    "classpath": true,
-                    "artifact": {
-                        "size": 7400,
-                        "MD5": "9445bd28cb8bbf3405bcacc54627a6da",
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "1.20.1-47.2.20",
-                            "name": "Minecraft Forge (version.json)",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 16554,
-                                "MD5": "2b7daf23d11fff0d0e2b7ae54712dbdf",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/versions/1.20.1-forge-47.2.20/1.20.1-forge-47.2.20.json"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:fmlcore:1.20.1-47.2.20",
-                            "name": "Minecraft Forge (fmlcore)",
-                            "type": "Library",
-                            "classpath": true,
-                            "artifact": {
-                                "size": 118686,
-                                "MD5": "a710f72f170f88737ff72a53ea1349d8",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.20",
-                            "name": "Minecraft Forge (javafmllanguage)",
-                            "type": "Library",
-                            "classpath": true,
-                            "artifact": {
-                                "size": 16517,
-                                "MD5": "3521da7e51982c2ace3a21ffe4070693",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:mclanguage:1.20.1-47.2.20",
-                            "name": "Minecraft Forge (mclanguage)",
-                            "type": "Library",
-                            "classpath": true,
-                            "artifact": {
-                                "size": 4999,
-                                "MD5": "4aeef0ba963dfbe0c4104b6532989988",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:forge:1.20.1-47.2.20:universal",
-                            "name": "Minecraft Forge (universal jar)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 2679250,
-                                "MD5": "27de7a3f2e5c69d54bc52cb179831aa9",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraftforge:forge:1.20.1-47.2.20:client",
-                            "name": "Minecraft Forge (client jar)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 4791301,
-                                "MD5": "c548aeb8e9e1cd028005b628b54f3a29",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-client.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
-                            "name": "Minecraft Forge (client srg)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 18842082,
-                                "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
-                            "name": "Minecraft Forge (client slim)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 12592249,
-                                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
-                            "name": "Minecraft Forge (client extra)",
-                            "type": "Library",
-                            "classpath": false,
-                            "artifact": {
-                                "size": 10436626,
-                                "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
-                            },
-                            "subModules": []
-                        },
-                        {
-                            "id": "cpw.mods:securejarhandler:2.1.10",
-                            "name": "Minecraft Forge (securejarhandler)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 88749,
-                                "MD5": "d9ff48d1c68388270388b803fa42611e",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm:9.5",
-                            "name": "Minecraft Forge (asm)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 121863,
-                                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-commons:9.5",
-                            "name": "Minecraft Forge (asm-commons)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 72209,
-                                "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-tree:9.5",
-                            "name": "Minecraft Forge (asm-tree)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 51944,
-                                "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-util:9.5",
-                            "name": "Minecraft Forge (asm-util)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 91076,
-                                "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-analysis:9.5",
-                            "name": "Minecraft Forge (asm-analysis)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 33978,
-                                "MD5": "4df0adafc78ebba404d4037987d36b61",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:accesstransformers:8.0.4",
-                            "name": "Minecraft Forge (accesstransformers)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 77756,
-                                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-                            }
-                        },
-                        {
-                            "id": "org.antlr:antlr4-runtime:4.9.1",
-                            "name": "Minecraft Forge (antlr4-runtime)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 337868,
-                                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:eventbus:6.0.5",
-                            "name": "Minecraft Forge (eventbus)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 53985,
-                                "MD5": "2a6245210b446b2144071e71ca13432b",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:forgespi:7.0.1",
-                            "name": "Minecraft Forge (forgespi)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 29831,
-                                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:coremods:5.0.1",
-                            "name": "Minecraft Forge (coremods)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 24199,
-                                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:modlauncher:10.0.9",
-                            "name": "Minecraft Forge (modlauncher)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 130343,
-                                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:unsafe:0.2.0",
-                            "name": "Minecraft Forge (unsafe)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2834,
-                                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:mergetool:1.1.5:api",
-                            "name": "Minecraft Forge (mergetool)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2572,
-                                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:core:3.6.4",
-                            "name": "Minecraft Forge (core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 199834,
-                                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:toml:3.6.4",
-                            "name": "Minecraft Forge (toml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 31816,
-                                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.8.5",
-                            "name": "Minecraft Forge (maven-artifact)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 58077,
-                                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-                            }
-                        },
-                        {
-                            "id": "net.jodah:typetools:0.6.3",
-                            "name": "Minecraft Forge (typetools)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 18281,
-                                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecrell:terminalconsoleappender:1.2.0",
-                            "name": "Minecraft Forge (terminalconsoleappender)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15977,
-                                "MD5": "679363fa893293791e55a21f81342f87",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-                            }
-                        },
-                        {
-                            "id": "org.jline:jline-reader:3.12.1",
-                            "name": "Minecraft Forge (jline-reader)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 150765,
-                                "MD5": "a2e7b012cd9802f83321187409174a94",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.jline:jline-terminal:3.12.1",
-                            "name": "Minecraft Forge (jline-terminal)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 211712,
-                                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.spongepowered:mixin:0.8.5",
-                            "name": "Minecraft Forge (mixin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1089277,
-                                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-                            }
-                        },
-                        {
-                            "id": "org.openjdk.nashorn:nashorn-core:15.3",
-                            "name": "Minecraft Forge (nashorn-core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2167288,
-                                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:JarJarSelector:0.3.19",
-                            "name": "Minecraft Forge (JarJarSelector)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 17374,
-                                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-                            "name": "Minecraft Forge (JarJarMetadata)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15895,
-                                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:bootstraplauncher:1.1.2",
-                            "name": "Minecraft Forge (bootstraplauncher)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 8284,
-                                "MD5": "48f5255aa337344c467c0150d347813d",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-                            "name": "Minecraft Forge (JarJarFileSystems)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32195,
-                                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:fmlloader:1.20.1-47.2.20",
-                            "name": "Minecraft Forge (fmlloader)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 264185,
-                                "MD5": "acee22eaf221c8cd61225002596f7640",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.20/fmlloader-1.20.1-47.2.20.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.20",
-                            "name": "Minecraft Forge (fmlearlydisplay)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 170553,
-                                "MD5": "b54b6fe4bd44788dcc6655f3399541f4",
-                                "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.20/fmlearlydisplay-1.20.1-47.2.20.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "net.blay09.mods:balm:7.2.2@jar",
-                    "name": "Balm",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 343714,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/balm-forge-1.20.1-7.2.2.jar",
-                        "MD5": "c07060d2512be71a15a5f8cac40676be"
-                    }
-                },
-                {
-                    "id": "moe.caramel.chat:caramelchat:1.1.1@jar",
-                    "name": "CaramelChat",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 133706,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/caramelChat-mc1.20.1-forge-1.1.1.jar",
-                        "MD5": "b1ca66afa0362f3adad1b5760b46335a"
-                    }
-                },
-                {
-                    "id": "net.blay09.mods:cookingforblockheads:16.0.4@jar",
-                    "name": "CookingForBlockheads",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 815221,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/cookingforblockheads-forge-1.20.1-16.0.4.jar",
-                        "MD5": "15725062c394a51b2db6dd5afabb7488"
-                    }
-                },
-                {
-                    "id": "me.clumsycat:furnitureexpanded:1.20.1-1.1@jar",
-                    "name": "Furniture Expanded",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 260717,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/furnitureexpanded-1.20.1-1.1.jar",
-                        "MD5": "5b650438425667976b5aaa923a436f90"
-                    }
-                },
-                {
-                    "id": "earth.terrarium:handcrafted:3.0.6@jar",
-                    "name": "Handcrafted",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 7111059,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/handcrafted-forge-1.20.1-3.0.6.jar",
-                        "MD5": "a5291f94fc830a80d2caf7d2ab7cd4fd"
-                    }
-                },
-                {
-                    "id": "net.mcreator.landkfurniturev:landk_furniture_v1_4:1.4@jar",
-                    "name": "Landk Furniture v1.4",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 126946560,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/Landk_furniture_v1.4_1.20.1_x512_3d_rx.jar"
-                    }
-                },
-                {
-                    "id": "com.mcwdoors.kikoz:mcwdoors:1.1.0@jar",
-                    "name": "Macaw's Doors",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1198207,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/mcw-doors-1.1.0forge-mc1.20.1.jar",
-                        "MD5": "e30ee4fc10a996ddffb8cbb84da6908f"
-                    }
-                },
-                {
-                    "id": "ua.firecatgames:modern_furniture:1.0.0@jar",
-                    "name": "Modern Furniture",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 393560,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/modern_furniture-1.0.0-forge-1.20.1.jar",
-                        "MD5": "5c9c07644c3c3a0cbf4002cec000b063"
-                    }
-                },
-                {
-                    "id": "net.subthy:plushie_buddies:0.0.8-1.20.1@jar",
-                    "name": "Plushie Buddies",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 312549,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/plushie_buddies-0.0.8-1.20.1.jar",
-                        "MD5": "445e4999a633a0d3d9c88e828a84291b"
-                    }
-                },
-                {
-                    "id": "com.delta:redeco:1.9.0@jar",
-                    "name": "Re:Deco",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2675329,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/redeco-1.9.0-1.20.jar",
-                        "MD5": "8ddef2869e5a1468a4e46189756c4729"
-                    }
-                },
-                {
-                    "id": "com.teamresourceful:resourcefullib:2.1.24@jar",
-                    "name": "Resourceful Lib",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 424237,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.24.jar",
-                        "MD5": "559fc9800f1ccbc4a182c7af0cf506c6"
-                    }
-                },
-                {
-                    "id": "options.txt",
-                    "name": "options.txt",
-                    "type": "File",
-                    "artifact": {
-                        "size": 3487,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/files/config/defaultoptions/options.txt",
-                        "MD5": "bc7f28b24a96eed9c99b3b89137b90d0",
-                        "path": "config/defaultoptions/options.txt"
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "servers.dat",
-                    "type": "File",
-                    "artifact": {
-                        "size": 71,
-                        "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/files/config/defaultoptions/servers.dat",
-                        "MD5": "97559758948258e461dc67c40903579a",
-                        "path": "config/defaultoptions/servers.dat"
-                    }
-                }
-            ]
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.20",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118686,
+                "MD5": "a710f72f170f88737ff72a53ea1349d8",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.20",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16517,
+                "MD5": "3521da7e51982c2ace3a21ffe4070693",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.20",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "4aeef0ba963dfbe0c4104b6532989988",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.20:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2679250,
+                "MD5": "27de7a3f2e5c69d54bc52cb179831aa9",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.20:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4791301,
+                "MD5": "c548aeb8e9e1cd028005b628b54f3a29",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.20",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264185,
+                "MD5": "acee22eaf221c8cd61225002596f7640",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.20/fmlloader-1.20.1-47.2.20.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.20",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170553,
+                "MD5": "b54b6fe4bd44788dcc6655f3399541f4",
+                "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.20/fmlearlydisplay-1.20.1-47.2.20.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.blay09.mods:balm:7.2.2@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 343714,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/balm-forge-1.20.1-7.2.2.jar",
+            "MD5": "c07060d2512be71a15a5f8cac40676be"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.1.1@jar",
+          "name": "CaramelChat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133706,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/caramelChat-mc1.20.1-forge-1.1.1.jar",
+            "MD5": "b1ca66afa0362f3adad1b5760b46335a"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:16.0.4@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 815221,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/cookingforblockheads-forge-1.20.1-16.0.4.jar",
+            "MD5": "15725062c394a51b2db6dd5afabb7488"
+          }
+        },
+        {
+          "id": "dev.lambdaurora.lambdynlights:dynamiclightsreforged:1.20.1_v1.6.0@jar",
+          "name": "Rubidium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94614,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/dynamiclightsreforged-1.20.1_v1.6.0.jar",
+            "MD5": "f8f506d864082aa61b3e38d249542f40"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.19+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1280293,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/embeddium-0.3.19+mc1.20.1-all.jar",
+            "MD5": "1b272575bea5f1e7c61a4d189b712343"
+          }
+        },
+        {
+          "id": "me.clumsycat:furnitureexpanded:1.20.1-1.1@jar",
+          "name": "Furniture Expanded",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 260717,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/furnitureexpanded-1.20.1-1.1.jar",
+            "MD5": "5b650438425667976b5aaa923a436f90"
+          }
+        },
+        {
+          "id": "earth.terrarium:handcrafted:3.0.6@jar",
+          "name": "Handcrafted",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7111059,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/handcrafted-forge-1.20.1-3.0.6.jar",
+            "MD5": "a5291f94fc830a80d2caf7d2ab7cd4fd"
+          }
+        },
+        {
+          "id": "net.mcreator.landkfurniturev:landk_furniture_v1_4:1.4@jar",
+          "name": "Landk Furniture v1.4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126946560,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/Landk_furniture_v1.4_1.20.1_x512_3d_rx.jar",
+            "MD5": "4a2da77d3d08808447079857c672885f"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.0@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1198207,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/mcw-doors-1.1.0forge-mc1.20.1.jar",
+            "MD5": "e30ee4fc10a996ddffb8cbb84da6908f"
+          }
+        },
+        {
+          "id": "ua.firecatgames:modern_furniture:1.0.0@jar",
+          "name": "Modern Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 393560,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/modern_furniture-1.0.0-forge-1.20.1.jar",
+            "MD5": "5c9c07644c3c3a0cbf4002cec000b063"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.7.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2831148,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/oculus-mc1.20.1-1.7.0.jar",
+            "MD5": "45b96133bb46cc61dd9778bd4fca741d"
+          }
+        },
+        {
+          "id": "net.subthy:plushie_buddies:0.0.8-1.20.1@jar",
+          "name": "Plushie Buddies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 312549,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/plushie_buddies-0.0.8-1.20.1.jar",
+            "MD5": "445e4999a633a0d3d9c88e828a84291b"
+          }
+        },
+        {
+          "id": "com.delta:redeco:1.9.0@jar",
+          "name": "Re:Deco",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2675329,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/redeco-1.9.0-1.20.jar",
+            "MD5": "8ddef2869e5a1468a4e46189756c4729"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.24@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 424237,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.24.jar",
+            "MD5": "559fc9800f1ccbc4a182c7af0cf506c6"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3500,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/options.txt",
+            "MD5": "5d91a34d08f98356b2546ae33c2ded42",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/servers.dat",
+            "MD5": "a5c0e0ce165f621bf19bf8ecd4170bd9",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09p2.zip",
+          "name": "BSL_v8.2.09p2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954763,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/shaderpacks/BSL_v8.2.09p2.zip",
+            "MD5": "35b7bbb0b37868ef658aa5a847ed948f",
+            "path": "shaderpacks/BSL_v8.2.09p2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip",
+          "name": "ComplementaryReimagined_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409956,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
+            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
+            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1.zip",
+          "name": "ComplementaryUnbound_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+          }
+        },
+        {
+          "id": "MakeUp-UltraFast-8.9e.zip",
+          "name": "MakeUp-UltraFast-8.9e.zip",
+          "type": "File",
+          "artifact": {
+            "size": 338348,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/shaderpacks/MakeUp-UltraFast-8.9e.zip",
+            "MD5": "8809bc636dfde2d34219a37376513462",
+            "path": "shaderpacks/MakeUp-UltraFast-8.9e.zip"
+          }
+        },
+        {
+          "id": "Noble v1.6.7.zip",
+          "name": "Noble v1.6.7.zip",
+          "type": "File",
+          "artifact": {
+            "size": 11325060,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/shaderpacks/Noble%20v1.6.7.zip",
+            "MD5": "a7d4f2708f858860574ee8219588c6bc",
+            "path": "shaderpacks/Noble v1.6.7.zip"
+          }
+        },
+        {
+          "id": "Solas Shader V1.8.zip",
+          "name": "Solas Shader V1.8.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1199760,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/shaderpacks/Solas%20Shader%20V1.8.zip",
+            "MD5": "254842282fd61e71401678654869af68",
+            "path": "shaderpacks/Solas Shader V1.8.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3180580,
+            "url": "http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/servers/Dotorisup-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV89.0%C2%A7r%C2%A7l.zip",
+            "MD5": "ab0247fddf9b4aa21343f0c0ae7aaf29",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
