@@ -1,0 +1,47 @@
+{
+  "profiles" : {
+    "38d79b2e7c8dc253add59aa3e982f64c" : {
+      "created" : "1970-01-02T00:00:00.000Z",
+      "icon" : "Grass",
+      "lastUsed" : "2024-04-29T12:39:36.437Z",
+      "lastVersionId" : "latest-release",
+      "name" : "",
+      "type" : "latest-release"
+    },
+    "5619af35c982dc77014a4cdbbd4b36ba" : {
+      "created" : "1970-01-01T00:00:00.000Z",
+      "icon" : "Dirt",
+      "lastUsed" : "1970-01-01T00:00:00.000Z",
+      "lastVersionId" : "latest-snapshot",
+      "name" : "",
+      "type" : "latest-snapshot"
+    },
+    "fabric-loader-1.20.1" : {
+      "created" : "2024-05-01T11:26:03.000Z",
+      "icon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAGFBMVEUAAAA4NCrb0LTGvKW8spyAem2uppSakn5SsnMLAAAAAXRSTlMAQObYZgAAAJ5JREFUaIHt1MENgCAMRmFWYAVXcAVXcAVXcH3bhCYNkYjcKO8dSf7v1JASUWdZAlgb0PEmDSMAYYBdGkYApgf8ER3SbwRgesAf0BACMD1gB6S9IbkEEBfwY49oNj4lgLhA64C0o9R9RABTAvp4SX5kB2TA5y8EEAK4pRrxB9QcA4QBWkj3GCAMUCO/xwBhAI/kEsCagCHDY4AwAC3VA6t4zTAMj0OJAAAAAElFTkSuQmCC",
+      "javaArgs" : "-Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
+      "lastUsed" : "2024-05-26T09:09:46.681Z",
+      "lastVersionId" : "fabric-loader-0.15.9-1.20.1",
+      "name" : "Leafia World",
+      "resolution" : {
+        "height" : 900,
+        "width" : 1600
+      },
+      "type" : "custom"
+    }
+  },
+  "settings" : {
+    "crashAssistance" : true,
+    "enableAdvanced" : false,
+    "enableAnalytics" : true,
+    "enableHistorical" : false,
+    "enableReleases" : true,
+    "enableSnapshots" : false,
+    "keepLauncherOpen" : false,
+    "profileSorting" : "ByLastPlayed",
+    "showGameLog" : false,
+    "showMenu" : false,
+    "soundOn" : false
+  },
+  "version" : 3
+}

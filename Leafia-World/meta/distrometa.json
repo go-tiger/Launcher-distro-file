@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///D:/Coding/Projects/Custom-Launcher/Launcher-distro-file/Leafia-World/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "https://github.com/go-tiger/Leafia-World/tags.atom",
+    "discord": {
+      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    }
+  }
+}
