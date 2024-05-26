@@ -13,7 +13,7 @@
       "description": "Leafia-World Running Minecraft 1.20.1 (Fabric v0.15.9)",
       "icon": "https://github.com/go-tiger/Launcher-distro-file/raw/main/Leafia-World/server-icon.png",
       "version": "1.0.0",
-      "address": "리피아.서버.한국:25565",
+      "address": "xn--oy2b25sn0m.xn--hk3b17f.xn--3e0b707e:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
