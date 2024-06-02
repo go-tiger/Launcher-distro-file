@@ -5,7 +5,7 @@
         "name": "도토리숲",
         "description": "Dotorisup Running Minecraft 1.20.1 (Forge v47.2.20)",
         "icon": "https://github.com/go-tiger/Launcher-distro-file/raw/main/Dotorisup/server-icon.png",
-        "address": "ddanbi.ggm.kr",
+        "address": "ddanbi.mcv.kr",
         "discord": {
             "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
             "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -22,7 +22,6 @@
             "appliesTo": ["files"],
             "patterns": [
                 "*.txt",
-                "servers.dat",
                 "resourcepacks/*.zip",
                 "shaderpacks/*.zip",
                 "config/*.cfg",

@@ -13,7 +13,7 @@
       "description": "Dotorisup Running Minecraft 1.20.1 (Forge v47.2.20)",
       "icon": "https://github.com/go-tiger/Launcher-distro-file/raw/main/Dotorisup/server-icon.png",
       "version": "1.0.0",
-      "address": "ddanbi.ggm.kr",
+      "address": "ddanbi.mcv.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -853,16 +853,6 @@
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.15@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7704422,
-            "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.15.jar",
-            "MD5": "8912b915031977bb90955e474c9be84b"
-          }
-        },
-        {
           "id": "xerca.xercapaint:xercapaint:1.20.1-1.0.0@jar",
           "name": "Joy of Painting",
           "type": "ForgeMod",
@@ -909,6 +899,7 @@
           "artifact": {
             "size": 133,
             "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/files/servers.dat",
+            "MD5": "c9b1e1848a9db6c74383a3b6943ce7b3",
             "path": "servers.dat"
           }
         },
