@@ -813,16 +813,6 @@
           }
         },
         {
-          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
-          "name": "SuperMartijn642's Config Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 206584,
-            "url": "https://raw.githubusercontent.com/go-tiger/Launcher-distro-file/main/Dotorisup/servers/Dotorisup-1.20.1/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-            "MD5": "cbece61946d4e059e90806c19dd66082"
-          }
-        },
-        {
           "id": "com.supermartijn642.core:supermartijn642corelib:1.1.17@jar",
           "name": "SuperMartijn642's Core Lib",
           "type": "ForgeMod",
